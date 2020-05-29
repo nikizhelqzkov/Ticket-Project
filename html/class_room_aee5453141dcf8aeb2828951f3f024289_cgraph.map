@@ -1,4 +1,0 @@
-<map id="Room::setMatrix" name="Room::setMatrix">
-<area shape="rect" id="node1" title="Мутатор с аргумент, който се вкарва в член&#45;данната matrix." alt="" coords="5,5,124,32"/>
-<area shape="rect" id="node2" href="$_room_8cpp.html#a5c43f55573009ad73e97946bae12b4fd" title="Валидация на матрицата съдържаща клиенти &#45;&gt; вектор от вектори. Има връзка между стойностите на член&#45;д..." alt="" coords="172,5,264,32"/>
-</map>

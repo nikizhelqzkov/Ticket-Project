@@ -1,6 +1,0 @@
-<map id="generate" name="generate">
-<area shape="rect" id="node1" title="Изчиства данни от старо събитие и гопълни с данни" alt="" coords="5,31,77,57"/>
-<area shape="rect" id="node2" href="$class_event.html#ae84b3d4abbcae6597e2520690f4a26a5" title="Ичиства данните на класа Event и баща мu Room." alt="" coords="125,31,233,57"/>
-<area shape="rect" id="node3" href="$class_date.html#a792ae1ce8bf1000e262de122400ec51c" title="Функция която чрез библиотекта ctime и специална структора за време извежда текущата дата" alt="" coords="281,5,405,32"/>
-<area shape="rect" id="node4" href="$class_room.html#abc70c4d3ce84a2fd28b926bf36c8e13d" title="Изчистване на данните на една зала" alt="" coords="291,56,396,83"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="Client::read" name="Client::read">
-<area shape="rect" id="node1" title="Четене на данни за клиента от конзолата. От този метод зависи къде ще седне клиента и дали ще е с рез..." alt="" coords="5,56,93,83"/>
-<area shape="rect" id="node2" href="$class_date.html#a4dedf1cbd19ff221fc1f70895ba560e7" title="Мутатор извеждащ стойността на член&#45;данната day." alt="" coords="147,5,246,32"/>
-<area shape="rect" id="node3" href="$class_date.html#ab337ee138bda0f304b6646bd15fba90a" title="Мутатор извеждащ стойността на член&#45;данната month." alt="" coords="141,56,252,83"/>
-<area shape="rect" id="node4" href="$class_date.html#aa1e4066bffc24af79f604dabce27e3cc" title="Мутатор извеждащ стойността на член&#45;данната year." alt="" coords="145,107,248,133"/>
-</map>

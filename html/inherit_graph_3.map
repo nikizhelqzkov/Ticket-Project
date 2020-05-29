@@ -1,4 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_room.html" title="Класът Room има за цел да съдържа базовите член&#45;данни на една зала в някое събитие + някои спомагател..." alt="" coords="5,5,61,32"/>
-<area shape="rect" id="node2" href="$class_event.html" title="Събитието е наследник на залата и взема негови методи като добавя дата и име на събитието + много мет..." alt="" coords="109,5,164,32"/>
-</map>

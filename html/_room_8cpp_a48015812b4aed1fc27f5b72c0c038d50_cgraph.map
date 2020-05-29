@@ -1,7 +1,0 @@
-<map id="operator&lt;&lt;" name="operator&lt;&lt;">
-<area shape="rect" id="node1" title="оператор за извеждане в поток на член&#45;данните на класа" alt="" coords="5,81,91,108"/>
-<area shape="rect" id="node2" href="$class_room.html#a67ba1fe4bb37063eb0d629dca2553954" title="Мутатор извеждащ стойността на член&#45;данната placeOnRow." alt="" coords="145,5,253,32"/>
-<area shape="rect" id="node3" href="$class_room.html#a416c1fe7e1338a64c2781becf17e85dd" title="Мутатор извеждащ стойността на член&#45;данната id." alt="" coords="153,56,245,83"/>
-<area shape="rect" id="node4" href="$class_room.html#adeedb52be218b1cab8fb0412ddeab0d7" title="Мутатор извеждащ стойността на член&#45;данната matrix." alt="" coords="139,107,259,133"/>
-<area shape="rect" id="node5" href="$class_room.html#ad449fa597d93f486949d6488bd24b224" title="Мутатор извеждащ стойността на член&#45;данната rows." alt="" coords="141,157,256,184"/>
-</map>

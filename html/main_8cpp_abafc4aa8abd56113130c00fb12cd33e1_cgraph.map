@@ -1,4 +1,0 @@
-<map id="checkTicket" name="checkTicket">
-<area shape="rect" id="node1" title="Функция, която е в помощ на UI на проекта и командата check." alt="" coords="5,5,97,32"/>
-<area shape="rect" id="node2" href="$class_event_arr.html#ae2b56775ed3a992487bf3b2289855739" title="Метод, чрез който по номер на билет извежда данните за мястото му в събитието, съсържащо номера му ,..." alt="" coords="145,5,295,32"/>
-</map>

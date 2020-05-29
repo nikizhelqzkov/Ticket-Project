@@ -1,4 +1,0 @@
-<map id="EventArr::removeEvent" name="EventArr::removeEvent">
-<area shape="rect" id="node1" title="Премахва събитие от вектора със събития, ако бъде намерено това събитие по id." alt="" coords="5,5,157,32"/>
-<area shape="rect" id="node2" href="$class_room.html#a416c1fe7e1338a64c2781becf17e85dd" title="Мутатор извеждащ стойността на член&#45;данната id." alt="" coords="205,5,297,32"/>
-</map>

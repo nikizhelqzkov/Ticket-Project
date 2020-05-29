@@ -1,4 +1,0 @@
-<map id="Room::print" name="Room::print">
-<area shape="rect" id="node1" title="Принтира на конзолата стойностите на член&#45;данните на класа" alt="" coords="143,5,232,32"/>
-<area shape="rect" id="node2" href="$class_event.html#a8087f742c473db50d2dda834de64ad1f" title="Извежда на конзолата данни на събитието и стартира метод от Room за извеждане на всички негови член д..." alt="" coords="5,5,95,32"/>
-</map>

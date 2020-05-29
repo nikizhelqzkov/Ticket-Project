@@ -33,6 +33,9 @@
 <p style = "text-align:center; background-color:grey; color: orange; font-size:20px;">В секцията Exit потребителя спира приложението.</p>
 
 <hr/>
+<h2 style="display:block; text-align:center;padding:10px; font-weight:bold;">За в бъдеще</h2>
+<p style = "text-align:center; background-color:grey; color: orange; font-size:20px;">Проекта е още ранна версия. В бъдеще ще може да се пишат имена на събития, които да са с повече от една дума. Ако има други бъгове, те също ще бъдат оправени.</p>
+
 <br/>
 
 ## За повече информация прегледайте останалите страници

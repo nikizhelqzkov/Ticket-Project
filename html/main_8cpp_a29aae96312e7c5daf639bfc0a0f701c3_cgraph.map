@@ -1,6 +1,0 @@
-<map id="reportFromTo" name="reportFromTo">
-<area shape="rect" id="node1" title="Функция, която е в помощ на UI на проекта и командата report." alt="" coords="5,56,104,83"/>
-<area shape="rect" id="node2" href="$class_event_arr.html#abb637a9eb8b82d3ef3e727ed4cf23933" title="Мутатор извеждащ стойността на член&#45;данната size." alt="" coords="152,5,275,32"/>
-<area shape="rect" id="node3" href="$class_event_arr.html#a8d3181e1f616f90259cb174d50167246" title="Отчет за купените билети според събитията при зададени начална дата и крайна дата,..." alt="" coords="157,56,269,83"/>
-<area shape="rect" id="node4" href="$class_sort_class.html#ad716cdce4041e88fbcf47ba3d2be2abb" title="Метод сорт, който използва алгоритъма selection sort и самия метод е функция от по&#45;висок ред Целта му..." alt="" coords="159,107,268,133"/>
-</map>

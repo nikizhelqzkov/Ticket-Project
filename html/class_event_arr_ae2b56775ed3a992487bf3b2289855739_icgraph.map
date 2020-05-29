@@ -1,5 +1,0 @@
-<map id="EventArr::checkTicket" name="EventArr::checkTicket">
-<area shape="rect" id="node1" title="Метод, чрез който по номер на билет извежда данните за мястото му в събитието, съсържащо номера му ,..." alt="" coords="244,5,393,32"/>
-<area shape="rect" id="node2" href="$main_8cpp.html#abafc4aa8abd56113130c00fb12cd33e1" title="Функция, която е в помощ на UI на проекта и командата check." alt="" coords="104,5,196,32"/>
-<area shape="rect" id="node3" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Мейн функцията на проекта, в която са нужните обекти от класовете, различни променливи и UI на проект..." alt="" coords="5,5,56,32"/>
-</map>
