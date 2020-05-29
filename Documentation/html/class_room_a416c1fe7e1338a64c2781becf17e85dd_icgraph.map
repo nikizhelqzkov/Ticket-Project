@@ -1,0 +1,5 @@
+<map id="Room::getId" name="Room::getId">
+<area shape="rect" id="node1" title="Мутатор извеждащ стойността на член&#45;данната id." alt="" coords="205,31,297,57"/>
+<area shape="rect" id="node2" href="$_room_8cpp.html#a48015812b4aed1fc27f5b72c0c038d50" title="оператор за извеждане в поток на член&#45;данните на класа" alt="" coords="39,5,124,32"/>
+<area shape="rect" id="node3" href="$class_event_arr.html#abf07ff3396da7942d264e9e0b2e76aa6" title="Премахва събитие от вектора със събития, ако бъде намерено това събитие по id." alt="" coords="5,56,157,83"/>
+</map>

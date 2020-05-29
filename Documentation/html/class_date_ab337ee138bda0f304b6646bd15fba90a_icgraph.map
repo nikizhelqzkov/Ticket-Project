@@ -1,0 +1,8 @@
+<map id="Date::getMonth" name="Date::getMonth">
+<area shape="rect" id="node1" title="Мутатор извеждащ стойността на член&#45;данната month." alt="" coords="489,31,600,57"/>
+<area shape="rect" id="node2" href="$class_client.html#a45d0756ec846c9910b8b8a2f5f7ac229" title="Construct a new Client:: Client object." alt="" coords="345,5,441,32"/>
+<area shape="rect" id="node3" href="$class_client.html#a67ddea6aadbced660c55350187362bda" title="Четене на данни за клиента от конзолата. От този метод зависи къде ще седне клиента и дали ще е с рез..." alt="" coords="349,56,437,83"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Мейн функцията на проекта, в която са нужните обекти от класовете, различни променливи и UI на проект..." alt="" coords="5,56,56,83"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#a5f1bfd332e810f0853ba376553420b25" title="Чете данни на клиент , пълни ги във матрицата с места и обновява събитието като връща Event&amp;." alt="" coords="199,81,297,108"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#ad7d8173da417f4c6f2fed4b2eb7624e0" title="Четене на данните за вектора от събития и връщайки EventArr&amp;." alt="" coords="104,81,151,108"/>
+</map>

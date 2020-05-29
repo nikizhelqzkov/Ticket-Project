@@ -1,0 +1,6 @@
+<map id="Client::getRow" name="Client::getRow">
+<area shape="rect" id="node1" title="Мутатор извеждащ стойността на член&#45;данната row." alt="" coords="345,5,452,32"/>
+<area shape="rect" id="node2" href="$main_8cpp.html#a5f1bfd332e810f0853ba376553420b25" title="Чете данни на клиент , пълни ги във матрицата с места и обновява събитието като връща Event&amp;." alt="" coords="199,5,297,32"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#ad7d8173da417f4c6f2fed4b2eb7624e0" title="Четене на данните за вектора от събития и връщайки EventArr&amp;." alt="" coords="104,5,151,32"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Мейн функцията на проекта, в която са нужните обекти от класовете, различни променливи и UI на проект..." alt="" coords="5,5,56,32"/>
+</map>

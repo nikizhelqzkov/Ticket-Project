@@ -1,0 +1,524 @@
+\hypertarget{class_event_arr}{}\doxysection{Event\+Arr Class Reference}
+\label{class_event_arr}\index{EventArr@{EventArr}}
+
+
+Класът \mbox{\hyperlink{class_event_arr}{Event\+Arr}} съдържа вктор от събитията на проекта и големината му + методи  
+
+
+
+
+{\ttfamily \#include $<$Event\+Arr.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_event_arr_a01503e9c3e16dd1cb524cfa23993a199}{Event\+Arr}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_event}{Event}} Arr\+:\+: \mbox{\hyperlink{class_event}{Event}} Arr object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_event_arr_a1304f14f0adc689ddb4ba1d6428f7614}{Event\+Arr}} (const std\+::vector$<$ \mbox{\hyperlink{class_event}{Event}} $>$ \&, size\+\_\+t)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_event}{Event}} Arr\+:\+: \mbox{\hyperlink{class_event}{Event}} Arr object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_event_arr_ab95ac2d676d685aff982ac9714a7e865}{Event\+Arr}} (const \mbox{\hyperlink{class_event_arr}{Event\+Arr}} \&)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_event}{Event}} Arr\+:\+: \mbox{\hyperlink{class_event}{Event}} Arr object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_event_arr_a7f8568c5df1e3564427c2457b86b8b9c}{$\sim$\+Event\+Arr}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{class_event}{Event}} Arr\+:\+: \mbox{\hyperlink{class_event}{Event}} Arr object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_event_arr_a7ee35b36d37740505a03bdf46f804731}{print\+Arr}} (std\+::ostream \&) const
+\begin{DoxyCompactList}\small\item\em Отпечатва цялата система от събития, зали, клиенти през файлов поток \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_event_arr_ae0202eae4097410dbc726cef21561b8e}{print\+Arr}} () const
+\begin{DoxyCompactList}\small\item\em Отпечатва на конзолата данните за всички събития и места във всяко събитие \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_event}{Event}} \& \mbox{\hyperlink{class_event_arr_a62140f19697bf97f1919ee2edace500d}{operator\mbox{[}$\,$\mbox{]}}} (int i)
+\begin{DoxyCompactList}\small\item\em Оператор \mbox{[}\mbox{]} връщаш оригинала на позиция от вектора(събитие на тази позиция), не е константен \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_event}{Event}} \mbox{\hyperlink{class_event_arr_aa1024903be3d5d8b252ce1430be1218b}{operator\mbox{[}$\,$\mbox{]}}} (int) const
+\begin{DoxyCompactList}\small\item\em Оператор \mbox{[}\mbox{]} връщащ копие на данните за позиция от вектора(събитие на тази позиция), константен е и не се променя \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_event_arr}{Event\+Arr}} \& \mbox{\hyperlink{class_event_arr_a13de7b2abe1cbc4c3ba643ded54ea42e}{add\+Event}} (const \mbox{\hyperlink{class_event}{Event}} \&)
+\begin{DoxyCompactList}\small\item\em Метод, който добаея събития във вектора от събития. Ако съвпаднат име на събитие и датата, връща че е запазено такова събитие и не добавя още веднъж \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_event_arr_abf07ff3396da7942d264e9e0b2e76aa6}{remove\+Event}} (const \mbox{\hyperlink{class_event}{Event}} \&)
+\begin{DoxyCompactList}\small\item\em Премахва събитие от вектора със събития, ако бъде намерено това събитие по id. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_event_arr_abb637a9eb8b82d3ef3e727ed4cf23933}{get\+Size}} () const
+\begin{DoxyCompactList}\small\item\em Мутатор извеждащ стойността на член-\/данната size. \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{class_event}{Event}} $>$ \mbox{\hyperlink{class_event_arr_a3873465dca9c1202af84fd6ed1cd2296}{get\+Data}} () const
+\begin{DoxyCompactList}\small\item\em Мутатор извеждащ стойността на член-\/данната data. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_event_arr_a9179f451429a74c1c1136f13d68fb708}{freeseats}} (std\+::string, \mbox{\hyperlink{class_date}{Date}})
+\begin{DoxyCompactList}\small\item\em Метод, чрез който да изведем след проверка в йерахиите за свободните места по зададено име и дата на събитие \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_event_arr_a947d4bb804fa9d8574420b483bf76dc2}{bookings}} (std\+::string, \mbox{\hyperlink{class_date}{Date}})
+\begin{DoxyCompactList}\small\item\em Метод, чрез който да изведем след проверка в йерахиите за резервираните места по зададено име и дата на събитие \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_event_arr_af503d6d94cd416b8e252273201683c0a}{bought\+Tickets}} (std\+::string, \mbox{\hyperlink{class_date}{Date}})
+\begin{DoxyCompactList}\small\item\em Метод, чрез който да изведем след проверка в йерахиите за купените билети по зададено име и дата на събитие \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_event_arr_ae2b56775ed3a992487bf3b2289855739}{check\+Ticket}} (long unsigned int serial\+Number)
+\begin{DoxyCompactList}\small\item\em Метод, чрез който по номер на билет извежда данните за мястото му в събитието, съсържащо номера му , ако изобщо го има и е валиден билета \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_event_arr_a8d3181e1f616f90259cb174d50167246}{report}} (\mbox{\hyperlink{class_date}{Date}}, \mbox{\hyperlink{class_date}{Date}})
+\begin{DoxyCompactList}\small\item\em Отчет за купените билети според събитията при зададени начална дата и крайна дата, през които да бъдат разгледани отчетите \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_event_arr}{Event\+Arr}} \& \mbox{\hyperlink{class_event_arr_ab700688b20d455fcbd97d434036cd2f1}{unbook}} (std\+::string name, \mbox{\hyperlink{class_date}{Date}} date, int row, int col)
+\begin{DoxyCompactList}\small\item\em Отменя резервация по дадено име и дата на събитие и ред и място в реда ,където му е било запазено Ако няма резервиран такъв билет, се съобщава за грешка \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Класът \mbox{\hyperlink{class_event_arr}{Event\+Arr}} съдържа вктор от събитията на проекта и големината му + методи 
+
+
+
+Definition at line 9 of file Event\+Arr.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_event_arr_a01503e9c3e16dd1cb524cfa23993a199}\label{class_event_arr_a01503e9c3e16dd1cb524cfa23993a199}} 
+\index{EventArr@{EventArr}!EventArr@{EventArr}}
+\index{EventArr@{EventArr}!EventArr@{EventArr}}
+\doxysubsubsection{\texorpdfstring{EventArr()}{EventArr()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Event\+Arr\+::\+Event\+Arr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_event}{Event}} Arr\+:\+: \mbox{\hyperlink{class_event}{Event}} Arr object. 
+
+
+
+Definition at line 7 of file Event\+Arr.\+cpp.
+
+\mbox{\Hypertarget{class_event_arr_a1304f14f0adc689ddb4ba1d6428f7614}\label{class_event_arr_a1304f14f0adc689ddb4ba1d6428f7614}} 
+\index{EventArr@{EventArr}!EventArr@{EventArr}}
+\index{EventArr@{EventArr}!EventArr@{EventArr}}
+\doxysubsubsection{\texorpdfstring{EventArr()}{EventArr()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Event\+Arr\+::\+Event\+Arr (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ \mbox{\hyperlink{class_event}{Event}} $>$ \&}]{data,  }\item[{size\+\_\+t}]{size }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_event}{Event}} Arr\+:\+: \mbox{\hyperlink{class_event}{Event}} Arr object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & \\
+\hline
+{\em size} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 18 of file Event\+Arr.\+cpp.
+
+\mbox{\Hypertarget{class_event_arr_ab95ac2d676d685aff982ac9714a7e865}\label{class_event_arr_ab95ac2d676d685aff982ac9714a7e865}} 
+\index{EventArr@{EventArr}!EventArr@{EventArr}}
+\index{EventArr@{EventArr}!EventArr@{EventArr}}
+\doxysubsubsection{\texorpdfstring{EventArr()}{EventArr()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Event\+Arr\+::\+Event\+Arr (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_event_arr}{Event\+Arr}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_event}{Event}} Arr\+:\+: \mbox{\hyperlink{class_event}{Event}} Arr object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 28 of file Event\+Arr.\+cpp.
+
+\mbox{\Hypertarget{class_event_arr_a7f8568c5df1e3564427c2457b86b8b9c}\label{class_event_arr_a7f8568c5df1e3564427c2457b86b8b9c}} 
+\index{EventArr@{EventArr}!````~EventArr@{$\sim$EventArr}}
+\index{````~EventArr@{$\sim$EventArr}!EventArr@{EventArr}}
+\doxysubsubsection{\texorpdfstring{$\sim$EventArr()}{~EventArr()}}
+{\footnotesize\ttfamily Event\+Arr\+::$\sim$\+Event\+Arr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the \mbox{\hyperlink{class_event}{Event}} Arr\+:\+: \mbox{\hyperlink{class_event}{Event}} Arr object. 
+
+
+
+Definition at line 37 of file Event\+Arr.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_event_arr_a13de7b2abe1cbc4c3ba643ded54ea42e}\label{class_event_arr_a13de7b2abe1cbc4c3ba643ded54ea42e}} 
+\index{EventArr@{EventArr}!addEvent@{addEvent}}
+\index{addEvent@{addEvent}!EventArr@{EventArr}}
+\doxysubsubsection{\texorpdfstring{addEvent()}{addEvent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_event_arr}{Event\+Arr}} \& Event\+Arr\+::add\+Event (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_event}{Event}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Метод, който добаея събития във вектора от събития. Ако съвпаднат име на събитие и датата, връща че е запазено такова събитие и не добавя още веднъж 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_event_arr}{Event\+Arr}}\& 
+\end{DoxyReturn}
+
+
+Definition at line 93 of file Event\+Arr.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=301pt]{class_event_arr_a13de7b2abe1cbc4c3ba643ded54ea42e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=253pt]{class_event_arr_a13de7b2abe1cbc4c3ba643ded54ea42e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_event_arr_a947d4bb804fa9d8574420b483bf76dc2}\label{class_event_arr_a947d4bb804fa9d8574420b483bf76dc2}} 
+\index{EventArr@{EventArr}!bookings@{bookings}}
+\index{bookings@{bookings}!EventArr@{EventArr}}
+\doxysubsubsection{\texorpdfstring{bookings()}{bookings()}}
+{\footnotesize\ttfamily void Event\+Arr\+::bookings (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{\mbox{\hyperlink{class_date}{Date}}}]{date }\end{DoxyParamCaption})}
+
+
+
+Метод, чрез който да изведем след проверка в йерахиите за резервираните места по зададено име и дата на събитие 
+
+
+
+Definition at line 172 of file Event\+Arr.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=291pt]{class_event_arr_a947d4bb804fa9d8574420b483bf76dc2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=252pt]{class_event_arr_a947d4bb804fa9d8574420b483bf76dc2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_event_arr_af503d6d94cd416b8e252273201683c0a}\label{class_event_arr_af503d6d94cd416b8e252273201683c0a}} 
+\index{EventArr@{EventArr}!boughtTickets@{boughtTickets}}
+\index{boughtTickets@{boughtTickets}!EventArr@{EventArr}}
+\doxysubsubsection{\texorpdfstring{boughtTickets()}{boughtTickets()}}
+{\footnotesize\ttfamily void Event\+Arr\+::bought\+Tickets (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{\mbox{\hyperlink{class_date}{Date}}}]{date }\end{DoxyParamCaption})}
+
+
+
+Метод, чрез който да изведем след проверка в йерахиите за купените билети по зададено име и дата на събитие 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em date} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 226 of file Event\+Arr.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=313pt]{class_event_arr_af503d6d94cd416b8e252273201683c0a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=274pt]{class_event_arr_af503d6d94cd416b8e252273201683c0a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_event_arr_ae2b56775ed3a992487bf3b2289855739}\label{class_event_arr_ae2b56775ed3a992487bf3b2289855739}} 
+\index{EventArr@{EventArr}!checkTicket@{checkTicket}}
+\index{checkTicket@{checkTicket}!EventArr@{EventArr}}
+\doxysubsubsection{\texorpdfstring{checkTicket()}{checkTicket()}}
+{\footnotesize\ttfamily void Event\+Arr\+::check\+Ticket (\begin{DoxyParamCaption}\item[{long unsigned int}]{serial\+Number }\end{DoxyParamCaption})}
+
+
+
+Метод, чрез който по номер на билет извежда данните за мястото му в събитието, съсържащо номера му , ако изобщо го има и е валиден билета 
+
+
+\begin{DoxyParams}{Parameters}
+{\em serial\+Number} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 279 of file Event\+Arr.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_event_arr_ae2b56775ed3a992487bf3b2289855739_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_event_arr_a9179f451429a74c1c1136f13d68fb708}\label{class_event_arr_a9179f451429a74c1c1136f13d68fb708}} 
+\index{EventArr@{EventArr}!freeseats@{freeseats}}
+\index{freeseats@{freeseats}!EventArr@{EventArr}}
+\doxysubsubsection{\texorpdfstring{freeseats()}{freeseats()}}
+{\footnotesize\ttfamily void Event\+Arr\+::freeseats (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{\mbox{\hyperlink{class_date}{Date}}}]{date }\end{DoxyParamCaption})}
+
+
+
+Метод, чрез който да изведем след проверка в йерахиите за свободните места по зададено име и дата на събитие 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em date} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 157 of file Event\+Arr.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=253pt]{class_event_arr_a9179f451429a74c1c1136f13d68fb708_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_event_arr_a3873465dca9c1202af84fd6ed1cd2296}\label{class_event_arr_a3873465dca9c1202af84fd6ed1cd2296}} 
+\index{EventArr@{EventArr}!getData@{getData}}
+\index{getData@{getData}!EventArr@{EventArr}}
+\doxysubsubsection{\texorpdfstring{getData()}{getData()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{class_event}{Event}} $>$ Event\+Arr\+::get\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Мутатор извеждащ стойността на член-\/данната data. 
+
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$\+Event$>$ 
+\end{DoxyReturn}
+
+
+Definition at line 147 of file Event\+Arr.\+cpp.
+
+\mbox{\Hypertarget{class_event_arr_abb637a9eb8b82d3ef3e727ed4cf23933}\label{class_event_arr_abb637a9eb8b82d3ef3e727ed4cf23933}} 
+\index{EventArr@{EventArr}!getSize@{getSize}}
+\index{getSize@{getSize}!EventArr@{EventArr}}
+\doxysubsubsection{\texorpdfstring{getSize()}{getSize()}}
+{\footnotesize\ttfamily int Event\+Arr\+::get\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Мутатор извеждащ стойността на член-\/данната size. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 138 of file Event\+Arr.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_event_arr_abb637a9eb8b82d3ef3e727ed4cf23933_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_event_arr_a62140f19697bf97f1919ee2edace500d}\label{class_event_arr_a62140f19697bf97f1919ee2edace500d}} 
+\index{EventArr@{EventArr}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!EventArr@{EventArr}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_event}{Event}} \& Event\+Arr\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Оператор \mbox{[}\mbox{]} връщаш оригинала на позиция от вектора(събитие на тази позиция), не е константен 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_event}{Event}}\& 
+\end{DoxyReturn}
+
+
+Definition at line 72 of file Event\+Arr.\+cpp.
+
+\mbox{\Hypertarget{class_event_arr_aa1024903be3d5d8b252ce1430be1218b}\label{class_event_arr_aa1024903be3d5d8b252ce1430be1218b}} 
+\index{EventArr@{EventArr}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!EventArr@{EventArr}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_event}{Event}} Event\+Arr\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption}) const}
+
+
+
+Оператор \mbox{[}\mbox{]} връщащ копие на данните за позиция от вектора(събитие на тази позиция), константен е и не се променя 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_event}{Event}} 
+\end{DoxyReturn}
+
+
+Definition at line 82 of file Event\+Arr.\+cpp.
+
+\mbox{\Hypertarget{class_event_arr_ae0202eae4097410dbc726cef21561b8e}\label{class_event_arr_ae0202eae4097410dbc726cef21561b8e}} 
+\index{EventArr@{EventArr}!printArr@{printArr}}
+\index{printArr@{printArr}!EventArr@{EventArr}}
+\doxysubsubsection{\texorpdfstring{printArr()}{printArr()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Event\+Arr\+::print\+Arr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Отпечатва на конзолата данните за всички събития и места във всяко събитие 
+
+
+
+Definition at line 58 of file Event\+Arr.\+cpp.
+
+\mbox{\Hypertarget{class_event_arr_a7ee35b36d37740505a03bdf46f804731}\label{class_event_arr_a7ee35b36d37740505a03bdf46f804731}} 
+\index{EventArr@{EventArr}!printArr@{printArr}}
+\index{printArr@{printArr}!EventArr@{EventArr}}
+\doxysubsubsection{\texorpdfstring{printArr()}{printArr()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Event\+Arr\+::print\+Arr (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out }\end{DoxyParamCaption}) const}
+
+
+
+Отпечатва цялата система от събития, зали, клиенти през файлов поток 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 45 of file Event\+Arr.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=245pt]{class_event_arr_a7ee35b36d37740505a03bdf46f804731_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_event_arr_abf07ff3396da7942d264e9e0b2e76aa6}\label{class_event_arr_abf07ff3396da7942d264e9e0b2e76aa6}} 
+\index{EventArr@{EventArr}!removeEvent@{removeEvent}}
+\index{removeEvent@{removeEvent}!EventArr@{EventArr}}
+\doxysubsubsection{\texorpdfstring{removeEvent()}{removeEvent()}}
+{\footnotesize\ttfamily bool Event\+Arr\+::remove\+Event (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_event}{Event}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Премахва събитие от вектора със събития, ако бъде намерено това събитие по id. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+
+
+Definition at line 120 of file Event\+Arr.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=299pt]{class_event_arr_abf07ff3396da7942d264e9e0b2e76aa6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_event_arr_a8d3181e1f616f90259cb174d50167246}\label{class_event_arr_a8d3181e1f616f90259cb174d50167246}} 
+\index{EventArr@{EventArr}!report@{report}}
+\index{report@{report}!EventArr@{EventArr}}
+\doxysubsubsection{\texorpdfstring{report()}{report()}}
+{\footnotesize\ttfamily void Event\+Arr\+::report (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_date}{Date}}}]{from,  }\item[{\mbox{\hyperlink{class_date}{Date}}}]{to }\end{DoxyParamCaption})}
+
+
+
+Отчет за купените билети според събитията при зададени начална дата и крайна дата, през които да бъдат разгледани отчетите 
+
+
+\begin{DoxyParams}{Parameters}
+{\em from} & \\
+\hline
+{\em to} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 331 of file Event\+Arr.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{class_event_arr_a8d3181e1f616f90259cb174d50167246_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_event_arr_ab700688b20d455fcbd97d434036cd2f1}\label{class_event_arr_ab700688b20d455fcbd97d434036cd2f1}} 
+\index{EventArr@{EventArr}!unbook@{unbook}}
+\index{unbook@{unbook}!EventArr@{EventArr}}
+\doxysubsubsection{\texorpdfstring{unbook()}{unbook()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_event_arr}{Event\+Arr}} \& Event\+Arr\+::unbook (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{\mbox{\hyperlink{class_date}{Date}}}]{date,  }\item[{int}]{row,  }\item[{int}]{col }\end{DoxyParamCaption})}
+
+
+
+Отменя резервация по дадено име и дата на събитие и ред и място в реда ,където му е било запазено Ако няма резервиран такъв билет, се съобщава за грешка 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em date} & \\
+\hline
+{\em row} & \\
+\hline
+{\em col} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_event_arr}{Event\+Arr}}\& 
+\end{DoxyReturn}
+
+
+Definition at line 307 of file Event\+Arr.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=329pt]{class_event_arr_ab700688b20d455fcbd97d434036cd2f1_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+T\+I\+C\+K\+E\+T\+S\+\_\+\+P\+R\+O\+J\+E\+C\+T/\mbox{\hyperlink{_event_arr_8h}{Event\+Arr.\+h}}\item 
+T\+I\+C\+K\+E\+T\+S\+\_\+\+P\+R\+O\+J\+E\+C\+T/\mbox{\hyperlink{_event_arr_8cpp}{Event\+Arr.\+cpp}}\end{DoxyCompactItemize}

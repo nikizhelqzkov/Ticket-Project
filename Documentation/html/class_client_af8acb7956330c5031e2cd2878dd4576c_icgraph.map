@@ -1,0 +1,6 @@
+<map id="Client::setDate" name="Client::setDate">
+<area shape="rect" id="node1" title="Мутатор с аргумент, който се вкарва в член&#45;данната date." alt="" coords="240,31,348,57"/>
+<area shape="rect" id="node2" href="$class_client.html#abfe0ea6ab8793bcbb5b37f820ba12599" title="Четене на данни за клиента от файлов поток" alt="" coords="104,5,192,32"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#ad7d8173da417f4c6f2fed4b2eb7624e0" title="Четене на данните за вектора от събития и връщайки EventArr&amp;." alt="" coords="125,56,171,83"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Мейн функцията на проекта, в която са нужните обекти от класовете, различни променливи и UI на проект..." alt="" coords="5,56,56,83"/>
+</map>

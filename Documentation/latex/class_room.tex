@@ -1,0 +1,531 @@
+\hypertarget{class_room}{}\doxysection{Room Class Reference}
+\label{class_room}\index{Room@{Room}}
+
+
+Класът \mbox{\hyperlink{class_room}{Room}} има за цел да съдържа базовите член-\/данни на една зала в някое събитие + някои спомагателни методи  
+
+
+
+
+{\ttfamily \#include $<$Room.\+h$>$}
+
+
+
+Inheritance diagram for Room\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=122pt]{class_room__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_room_ac6ef93a7d9c3e1d624e025058d5f16ff}{Room}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_room}{Room}}\+:\+: \mbox{\hyperlink{class_room}{Room}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_room_a2951d7e0a87b7913a194ca908cec9491}{Room}} (int, const std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{class_client}{Client}} $>$$>$ \&, int, int)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_room}{Room}}\+:\+: \mbox{\hyperlink{class_room}{Room}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_room_a7bfa3e4d3d47bf11ab5fb55174719306}{Room}} (const \mbox{\hyperlink{class_room}{Room}} \&)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_room}{Room}}\+:\+: \mbox{\hyperlink{class_room}{Room}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_room_a67d5da09983cc53097807fd43ba5481a}{$\sim$\+Room}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{class_room}{Room}}\+:\+: \mbox{\hyperlink{class_room}{Room}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_room_aec2b1b39fe5a0cd7ef4961b5cf5b84ba}{print}} () const
+\begin{DoxyCompactList}\small\item\em Принтира на конзолата стойностите на член-\/данните на класа \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_room_a598b38471ced0e1ed9994fb12794262a}{print}} (std\+::ostream \&) const
+\begin{DoxyCompactList}\small\item\em Извежда през поток към файл стойнсотите на член-\/данните на класа \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_room_a416c1fe7e1338a64c2781becf17e85dd}{get\+Id}} () const
+\begin{DoxyCompactList}\small\item\em Мутатор извеждащ стойността на член-\/данната id. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_room_ad449fa597d93f486949d6488bd24b224}{get\+Rows}} () const
+\begin{DoxyCompactList}\small\item\em Мутатор извеждащ стойността на член-\/данната rows. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_room_a67ba1fe4bb37063eb0d629dca2553954}{get\+Cols}} () const
+\begin{DoxyCompactList}\small\item\em Мутатор извеждащ стойността на член-\/данната place\+On\+Row. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{class_client}{Client}} $>$ $>$ \mbox{\hyperlink{class_room_adeedb52be218b1cab8fb0412ddeab0d7}{getplaces}} () const
+\begin{DoxyCompactList}\small\item\em Мутатор извеждащ стойността на член-\/данната matrix. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{class_client}{Client}} $>$ $>$ \mbox{\hyperlink{class_room_a4b63d573ced023c644552469db86fc66}{getplaces}} ()
+\begin{DoxyCompactList}\small\item\em Мутатор извеждащ стойността на член-\/данната matrix, но не е константен \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_room_ad9dd9264fca6f0ae16b36a97c346b1ee}{set\+Id}} (int)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната id. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_room_afbe8a4eee10fcefbb204fa9e789e1a15}{set\+Rows}} (int \mbox{\hyperlink{class_room_a285405c632ec4a0f7237519a19cd9ee4}{rows}})
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната rows. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_room_afab498595cc32d2a7c567f4bde316efb}{set\+Cols}} (int cols)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната place\+On\+Row. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_room_aee5453141dcf8aeb2828951f3f024289}{set\+Matrix}} (const std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{class_client}{Client}} $>$$>$ \&)
+\begin{DoxyCompactList}\small\item\em Мутатор с аргумент, който се вкарва в член-\/данната matrix. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_room}{Room}} \& \mbox{\hyperlink{class_room_a54874e2fd79bb6ea2ad38d40e315ab0b}{operator=}} (const \mbox{\hyperlink{class_room}{Room}} \&)
+\begin{DoxyCompactList}\small\item\em Оператор за присвояване между 2 зали \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_room_abc70c4d3ce84a2fd28b926bf36c8e13d}{remove}} ()
+\begin{DoxyCompactList}\small\item\em Изчистване на данните на една зала \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_room_af51865ded79b022a93c6af4bd613d41c}{id}}
+\item 
+std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{class_client}{Client}} $>$ $>$ \mbox{\hyperlink{class_room_a2c4b9e79eef07cba48923c998349ba4a}{matrix}}
+\item 
+int \mbox{\hyperlink{class_room_a285405c632ec4a0f7237519a19cd9ee4}{rows}}
+\item 
+int \mbox{\hyperlink{class_room_a1f1b464c877e49175da0e42bce25e963}{place\+On\+Row}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Класът \mbox{\hyperlink{class_room}{Room}} има за цел да съдържа базовите член-\/данни на една зала в някое събитие + някои спомагателни методи 
+
+
+
+Definition at line 11 of file Room.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_room_ac6ef93a7d9c3e1d624e025058d5f16ff}\label{class_room_ac6ef93a7d9c3e1d624e025058d5f16ff}} 
+\index{Room@{Room}!Room@{Room}}
+\index{Room@{Room}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{Room()}{Room()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Room\+::\+Room (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_room}{Room}}\+:\+: \mbox{\hyperlink{class_room}{Room}} object. 
+
+
+
+Definition at line 33 of file Room.\+cpp.
+
+\mbox{\Hypertarget{class_room_a2951d7e0a87b7913a194ca908cec9491}\label{class_room_a2951d7e0a87b7913a194ca908cec9491}} 
+\index{Room@{Room}!Room@{Room}}
+\index{Room@{Room}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{Room()}{Room()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Room\+::\+Room (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{const std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{class_client}{Client}} $>$$>$ \&}]{place,  }\item[{int}]{rows,  }\item[{int}]{place\+On\+Row }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_room}{Room}}\+:\+: \mbox{\hyperlink{class_room}{Room}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+{\em place} & \\
+\hline
+{\em rows} & \\
+\hline
+{\em place\+On\+Row} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 47 of file Room.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=276pt]{class_room_a2951d7e0a87b7913a194ca908cec9491_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_room_a7bfa3e4d3d47bf11ab5fb55174719306}\label{class_room_a7bfa3e4d3d47bf11ab5fb55174719306}} 
+\index{Room@{Room}!Room@{Room}}
+\index{Room@{Room}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{Room()}{Room()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Room\+::\+Room (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_room}{Room}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_room}{Room}}\+:\+: \mbox{\hyperlink{class_room}{Room}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 67 of file Room.\+cpp.
+
+\mbox{\Hypertarget{class_room_a67d5da09983cc53097807fd43ba5481a}\label{class_room_a67d5da09983cc53097807fd43ba5481a}} 
+\index{Room@{Room}!````~Room@{$\sim$Room}}
+\index{````~Room@{$\sim$Room}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{$\sim$Room()}{~Room()}}
+{\footnotesize\ttfamily Room\+::$\sim$\+Room (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the \mbox{\hyperlink{class_room}{Room}}\+:\+: \mbox{\hyperlink{class_room}{Room}} object. 
+
+
+
+Definition at line 59 of file Room.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_room_a67ba1fe4bb37063eb0d629dca2553954}\label{class_room_a67ba1fe4bb37063eb0d629dca2553954}} 
+\index{Room@{Room}!getCols@{getCols}}
+\index{getCols@{getCols}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{getCols()}{getCols()}}
+{\footnotesize\ttfamily int Room\+::get\+Cols (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Мутатор извеждащ стойността на член-\/данната place\+On\+Row. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 147 of file Room.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=261pt]{class_room_a67ba1fe4bb37063eb0d629dca2553954_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_room_a416c1fe7e1338a64c2781becf17e85dd}\label{class_room_a416c1fe7e1338a64c2781becf17e85dd}} 
+\index{Room@{Room}!getId@{getId}}
+\index{getId@{getId}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily int Room\+::get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Мутатор извеждащ стойността на член-\/данната id. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 111 of file Room.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=299pt]{class_room_a416c1fe7e1338a64c2781becf17e85dd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_room_a4b63d573ced023c644552469db86fc66}\label{class_room_a4b63d573ced023c644552469db86fc66}} 
+\index{Room@{Room}!getplaces@{getplaces}}
+\index{getplaces@{getplaces}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{getplaces()}{getplaces()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{class_client}{Client}} $>$ $>$ Room\+::getplaces (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Мутатор извеждащ стойността на член-\/данната matrix, но не е константен 
+
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$std\+::vector$<$\+Client$>$$>$ 
+\end{DoxyReturn}
+
+
+Definition at line 138 of file Room.\+cpp.
+
+\mbox{\Hypertarget{class_room_adeedb52be218b1cab8fb0412ddeab0d7}\label{class_room_adeedb52be218b1cab8fb0412ddeab0d7}} 
+\index{Room@{Room}!getplaces@{getplaces}}
+\index{getplaces@{getplaces}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{getplaces()}{getplaces()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{class_client}{Client}} $>$ $>$ Room\+::getplaces (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Мутатор извеждащ стойността на член-\/данната matrix. 
+
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$std\+::vector$<$\+Client$>$$>$ 
+\end{DoxyReturn}
+
+
+Definition at line 129 of file Room.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=270pt]{class_room_adeedb52be218b1cab8fb0412ddeab0d7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_room_ad449fa597d93f486949d6488bd24b224}\label{class_room_ad449fa597d93f486949d6488bd24b224}} 
+\index{Room@{Room}!getRows@{getRows}}
+\index{getRows@{getRows}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{getRows()}{getRows()}}
+{\footnotesize\ttfamily int Room\+::get\+Rows (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Мутатор извеждащ стойността на член-\/данната rows. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 120 of file Room.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=266pt]{class_room_ad449fa597d93f486949d6488bd24b224_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_room_a54874e2fd79bb6ea2ad38d40e315ab0b}\label{class_room_a54874e2fd79bb6ea2ad38d40e315ab0b}} 
+\index{Room@{Room}!operator=@{operator=}}
+\index{operator=@{operator=}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_room}{Room}} \& Room\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_room}{Room}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Оператор за присвояване между 2 зали 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_room}{Room}}\& 
+\end{DoxyReturn}
+
+
+Definition at line 217 of file Room.\+cpp.
+
+\mbox{\Hypertarget{class_room_aec2b1b39fe5a0cd7ef4961b5cf5b84ba}\label{class_room_aec2b1b39fe5a0cd7ef4961b5cf5b84ba}} 
+\index{Room@{Room}!print@{print}}
+\index{print@{print}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Room\+::print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Принтира на конзолата стойностите на член-\/данните на класа 
+
+
+
+Definition at line 75 of file Room.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{class_room_aec2b1b39fe5a0cd7ef4961b5cf5b84ba_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_room_a598b38471ced0e1ed9994fb12794262a}\label{class_room_a598b38471ced0e1ed9994fb12794262a}} 
+\index{Room@{Room}!print@{print}}
+\index{print@{print}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Room\+::print (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out }\end{DoxyParamCaption}) const}
+
+
+
+Извежда през поток към файл стойнсотите на член-\/данните на класа 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 93 of file Room.\+cpp.
+
+\mbox{\Hypertarget{class_room_abc70c4d3ce84a2fd28b926bf36c8e13d}\label{class_room_abc70c4d3ce84a2fd28b926bf36c8e13d}} 
+\index{Room@{Room}!remove@{remove}}
+\index{remove@{remove}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily void Room\+::remove (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Изчистване на данните на една зала 
+
+
+
+Definition at line 232 of file Room.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_room_abc70c4d3ce84a2fd28b926bf36c8e13d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_room_afab498595cc32d2a7c567f4bde316efb}\label{class_room_afab498595cc32d2a7c567f4bde316efb}} 
+\index{Room@{Room}!setCols@{setCols}}
+\index{setCols@{setCols}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{setCols()}{setCols()}}
+{\footnotesize\ttfamily void Room\+::set\+Cols (\begin{DoxyParamCaption}\item[{int}]{cols }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната place\+On\+Row. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cols} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 186 of file Room.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=271pt]{class_room_afab498595cc32d2a7c567f4bde316efb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_room_ad9dd9264fca6f0ae16b36a97c346b1ee}\label{class_room_ad9dd9264fca6f0ae16b36a97c346b1ee}} 
+\index{Room@{Room}!setId@{setId}}
+\index{setId@{setId}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{setId()}{setId()}}
+{\footnotesize\ttfamily void Room\+::set\+Id (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната id. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 156 of file Room.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=223pt]{class_room_ad9dd9264fca6f0ae16b36a97c346b1ee_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_room_aee5453141dcf8aeb2828951f3f024289}\label{class_room_aee5453141dcf8aeb2828951f3f024289}} 
+\index{Room@{Room}!setMatrix@{setMatrix}}
+\index{setMatrix@{setMatrix}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{setMatrix()}{setMatrix()}}
+{\footnotesize\ttfamily void Room\+::set\+Matrix (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{class_client}{Client}} $>$$>$ \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната matrix. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 165 of file Room.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=274pt]{class_room_aee5453141dcf8aeb2828951f3f024289_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=243pt]{class_room_aee5453141dcf8aeb2828951f3f024289_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_room_afbe8a4eee10fcefbb204fa9e789e1a15}\label{class_room_afbe8a4eee10fcefbb204fa9e789e1a15}} 
+\index{Room@{Room}!setRows@{setRows}}
+\index{setRows@{setRows}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{setRows()}{setRows()}}
+{\footnotesize\ttfamily void Room\+::set\+Rows (\begin{DoxyParamCaption}\item[{int}]{rows }\end{DoxyParamCaption})}
+
+
+
+Мутатор с аргумент, който се вкарва в член-\/данната rows. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rows} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 175 of file Room.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=276pt]{class_room_afbe8a4eee10fcefbb204fa9e789e1a15_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_room_af51865ded79b022a93c6af4bd613d41c}\label{class_room_af51865ded79b022a93c6af4bd613d41c}} 
+\index{Room@{Room}!id@{id}}
+\index{id@{id}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{id}{id}}
+{\footnotesize\ttfamily int Room\+::id\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 14 of file Room.\+h.
+
+\mbox{\Hypertarget{class_room_a2c4b9e79eef07cba48923c998349ba4a}\label{class_room_a2c4b9e79eef07cba48923c998349ba4a}} 
+\index{Room@{Room}!matrix@{matrix}}
+\index{matrix@{matrix}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{matrix}{matrix}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::vector$<$\mbox{\hyperlink{class_client}{Client}}$>$ $>$ Room\+::matrix\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 15 of file Room.\+h.
+
+\mbox{\Hypertarget{class_room_a1f1b464c877e49175da0e42bce25e963}\label{class_room_a1f1b464c877e49175da0e42bce25e963}} 
+\index{Room@{Room}!placeOnRow@{placeOnRow}}
+\index{placeOnRow@{placeOnRow}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{placeOnRow}{placeOnRow}}
+{\footnotesize\ttfamily int Room\+::place\+On\+Row\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 18 of file Room.\+h.
+
+\mbox{\Hypertarget{class_room_a285405c632ec4a0f7237519a19cd9ee4}\label{class_room_a285405c632ec4a0f7237519a19cd9ee4}} 
+\index{Room@{Room}!rows@{rows}}
+\index{rows@{rows}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{rows}{rows}}
+{\footnotesize\ttfamily int Room\+::rows\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 17 of file Room.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+T\+I\+C\+K\+E\+T\+S\+\_\+\+P\+R\+O\+J\+E\+C\+T/\mbox{\hyperlink{_room_8h}{Room.\+h}}\item 
+T\+I\+C\+K\+E\+T\+S\+\_\+\+P\+R\+O\+J\+E\+C\+T/\mbox{\hyperlink{_room_8cpp}{Room.\+cpp}}\end{DoxyCompactItemize}

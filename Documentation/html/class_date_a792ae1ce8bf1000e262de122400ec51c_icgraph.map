@@ -1,0 +1,7 @@
+<map id="Date::getLiveData" name="Date::getLiveData">
+<area shape="rect" id="node1" title="Функция която чрез библиотекта ctime и специална структора за време извежда текущата дата" alt="" coords="380,56,504,83"/>
+<area shape="rect" id="node2" href="$class_event.html#a5a40dd4708297f7031e29b39e039ae10" title="Construct a new Event:: Event object." alt="" coords="231,5,325,32"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Мейн функцията на проекта, в която са нужните обекти от класовете, различни променливи и UI на проект..." alt="" coords="5,81,56,108"/>
+<area shape="rect" id="node4" href="$class_event.html#ae84b3d4abbcae6597e2520690f4a26a5" title="Ичиства данните на класа Event и баща мu Room." alt="" coords="224,107,332,133"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#aa34a7a6dc0ef5289ccb5aa1631866b9c" title="Изчиства данни от старо събитие и гопълни с данни" alt="" coords="104,107,176,133"/>
+</map>

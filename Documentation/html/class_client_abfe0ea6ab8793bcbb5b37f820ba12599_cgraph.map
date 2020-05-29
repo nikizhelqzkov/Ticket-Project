@@ -1,0 +1,4 @@
+<map id="Client::read" name="Client::read">
+<area shape="rect" id="node1" title="Четене на данни за клиента от файлов поток" alt="" coords="5,5,93,32"/>
+<area shape="rect" id="node2" href="$class_client.html#af8acb7956330c5031e2cd2878dd4576c" title="Мутатор с аргумент, който се вкарва в член&#45;данната date." alt="" coords="141,5,249,32"/>
+</map>

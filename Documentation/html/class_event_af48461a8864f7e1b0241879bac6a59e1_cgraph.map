@@ -1,0 +1,4 @@
+<map id="Event::Print" name="Event::Print">
+<area shape="rect" id="node1" title="Извежда член&#45;данните на Event и след това на Room във файлов поток" alt="" coords="5,5,95,32"/>
+<area shape="rect" id="node2" href="$class_room.html#aec2b1b39fe5a0cd7ef4961b5cf5b84ba" title="Принтира на конзолата стойностите на член&#45;данните на класа" alt="" coords="143,5,232,32"/>
+</map>

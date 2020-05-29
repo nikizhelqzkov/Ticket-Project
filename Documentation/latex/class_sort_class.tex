@@ -1,0 +1,83 @@
+\hypertarget{class_sort_class}{}\doxysection{Sort\+Class Class Reference}
+\label{class_sort_class}\index{SortClass@{SortClass}}
+
+
+Класът \mbox{\hyperlink{class_sort_class}{Sort\+Class}} съдържа статична член данна за сортиране използвана в мейн файла като начин за сортиране чрез ламда функция  
+
+
+
+
+{\ttfamily \#include $<$Sort\+Class.\+h$>$}
+
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+using \mbox{\hyperlink{class_sort_class_a07e4cabb56acb89ecf72988e053f3834}{comparator\+Function}} = std\+::function$<$ bool(\mbox{\hyperlink{class_event}{Event}}, \mbox{\hyperlink{class_event}{Event}})$>$
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_sort_class_ad716cdce4041e88fbcf47ba3d2be2abb}{sort}} (\mbox{\hyperlink{class_event_arr}{Event\+Arr}} \&, size\+\_\+t, \mbox{\hyperlink{class_sort_class_a07e4cabb56acb89ecf72988e053f3834}{comparator\+Function}})
+\begin{DoxyCompactList}\small\item\em Метод сорт, който използва алгоритъма selection sort и самия метод е функция от по-\/висок ред Целта му е да работи по подобен начин като std\+::sort но с функция по наш избор (примерно сравнение на дати) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Класът \mbox{\hyperlink{class_sort_class}{Sort\+Class}} съдържа статична член данна за сортиране използвана в мейн файла като начин за сортиране чрез ламда функция 
+
+
+
+Definition at line 12 of file Sort\+Class.\+h.
+
+
+
+\doxysubsection{Member Typedef Documentation}
+\mbox{\Hypertarget{class_sort_class_a07e4cabb56acb89ecf72988e053f3834}\label{class_sort_class_a07e4cabb56acb89ecf72988e053f3834}} 
+\index{SortClass@{SortClass}!comparatorFunction@{comparatorFunction}}
+\index{comparatorFunction@{comparatorFunction}!SortClass@{SortClass}}
+\doxysubsubsection{\texorpdfstring{comparatorFunction}{comparatorFunction}}
+{\footnotesize\ttfamily using \mbox{\hyperlink{class_sort_class_a07e4cabb56acb89ecf72988e053f3834}{Sort\+Class\+::comparator\+Function}} =  std\+::function$<$bool(\mbox{\hyperlink{class_event}{Event}}, \mbox{\hyperlink{class_event}{Event}})$>$}
+
+
+
+Definition at line 15 of file Sort\+Class.\+h.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_sort_class_ad716cdce4041e88fbcf47ba3d2be2abb}\label{class_sort_class_ad716cdce4041e88fbcf47ba3d2be2abb}} 
+\index{SortClass@{SortClass}!sort@{sort}}
+\index{sort@{sort}!SortClass@{SortClass}}
+\doxysubsubsection{\texorpdfstring{sort()}{sort()}}
+{\footnotesize\ttfamily void Sort\+Class\+::sort (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_event_arr}{Event\+Arr}} \&}]{arr,  }\item[{size\+\_\+t}]{size,  }\item[{\mbox{\hyperlink{class_sort_class_a07e4cabb56acb89ecf72988e053f3834}{comparator\+Function}}}]{func }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Метод сорт, който използва алгоритъма selection sort и самия метод е функция от по-\/висок ред Целта му е да работи по подобен начин като std\+::sort но с функция по наш избор (примерно сравнение на дати) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em arr} & \\
+\hline
+{\em size} & \\
+\hline
+{\em func} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 10 of file Sort\+Class.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=346pt]{class_sort_class_ad716cdce4041e88fbcf47ba3d2be2abb_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+T\+I\+C\+K\+E\+T\+S\+\_\+\+P\+R\+O\+J\+E\+C\+T/\mbox{\hyperlink{_sort_class_8h}{Sort\+Class.\+h}}\item 
+T\+I\+C\+K\+E\+T\+S\+\_\+\+P\+R\+O\+J\+E\+C\+T/\mbox{\hyperlink{_sort_class_8cpp}{Sort\+Class.\+cpp}}\end{DoxyCompactItemize}

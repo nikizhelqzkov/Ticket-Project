@@ -1,0 +1,6 @@
+<map id="Room::Room" name="Room::Room">
+<area shape="rect" id="node1" title="Construct a new Room:: Room object." alt="" coords="5,56,104,83"/>
+<area shape="rect" id="node2" href="$_room_8cpp.html#a5c43f55573009ad73e97946bae12b4fd" title="Валидация на матрицата съдържаща клиенти &#45;&gt; вектор от вектори. Има връзка между стойностите на член&#45;д..." alt="" coords="163,5,255,32"/>
+<area shape="rect" id="node3" href="$class_room.html#afab498595cc32d2a7c567f4bde316efb" title="Мутатор с аргумент, който се вкарва в член&#45;данната placeOnRow." alt="" coords="155,56,263,83"/>
+<area shape="rect" id="node4" href="$class_room.html#afbe8a4eee10fcefbb204fa9e789e1a15" title="Мутатор с аргумент, който се вкарва в член&#45;данната rows." alt="" coords="152,107,267,133"/>
+</map>
