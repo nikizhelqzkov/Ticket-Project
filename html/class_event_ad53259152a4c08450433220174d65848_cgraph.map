@@ -1,0 +1,4 @@
+<map id="Event::printFreeSeats" name="Event::printFreeSeats">
+<area shape="rect" id="node1" title="Извежда данни за свободните места в матрицата от клиенти, като свободно място се брои ако е само резе..." alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node2" href="$class_event.html#a36453ab5a21b660a61f2a0369e2689e8" title="Мутатор извеждащ стойността на член&#45;данната name." alt="" coords="200,5,315,32"/>
+</map>

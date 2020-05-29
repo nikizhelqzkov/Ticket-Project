@@ -1,0 +1,5 @@
+<map id="EventArr::addEvent" name="EventArr::addEvent">
+<area shape="rect" id="node1" title="Метод, който добаея събития във вектора от събития. Ако съвпаднат име на събитие и датата,..." alt="" coords="5,31,137,57"/>
+<area shape="rect" id="node2" href="$class_event.html#afb982ea390aa61ed05bd3c5e544071e1" title="Мутатор извеждащ стойността на член&#45;данната eventDate." alt="" coords="189,5,296,32"/>
+<area shape="rect" id="node3" href="$class_event.html#a36453ab5a21b660a61f2a0369e2689e8" title="Мутатор извеждащ стойността на член&#45;данната name." alt="" coords="185,56,300,83"/>
+</map>

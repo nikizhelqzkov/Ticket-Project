@@ -1,0 +1,6 @@
+<map id="isItOkMatrix" name="isItOkMatrix">
+<area shape="rect" id="node1" title="Валидация на матрицата съдържаща клиенти &#45;&gt; вектор от вектори. Има връзка между стойностите на член&#45;д..." alt="" coords="271,31,363,57"/>
+<area shape="rect" id="node2" href="$class_room.html#a2951d7e0a87b7913a194ca908cec9491" title="Construct a new Room:: Room object." alt="" coords="114,5,213,32"/>
+<area shape="rect" id="node3" href="$class_room.html#aee5453141dcf8aeb2828951f3f024289" title="Мутатор с аргумент, който се вкарва в член&#45;данната matrix." alt="" coords="104,56,223,83"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Мейн функцията на проекта, в която са нужните обекти от класовете, различни променливи и UI на проект..." alt="" coords="5,56,56,83"/>
+</map>

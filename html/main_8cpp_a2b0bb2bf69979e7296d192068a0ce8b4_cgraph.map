@@ -1,0 +1,4 @@
+<map id="unbook" name="unbook">
+<area shape="rect" id="node1" title="Функция, която е в помощ на UI на проекта и командата unbook." alt="" coords="5,5,69,32"/>
+<area shape="rect" id="node2" href="$class_event_arr.html#ab700688b20d455fcbd97d434036cd2f1" title="Отменя резервация по дадено име и дата на събитие и ред и място в реда ,където му е било запазено Ако..." alt="" coords="117,5,239,32"/>
+</map>

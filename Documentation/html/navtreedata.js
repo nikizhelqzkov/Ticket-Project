@@ -26,7 +26,8 @@ var NAVTREE =
 [
   [ "Документация за Билетния центът", "index.html", [
     [ "Добре дошли в документацията на Билетния център", "index.html", [
-      [ "Примерен код:", "index.html#autotoc_md1", null ]
+      [ "Кратко описание", "index.html#autotoc_md1", null ],
+      [ "За повече информация прегледайте останалите страници", "index.html#autotoc_md2", null ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],

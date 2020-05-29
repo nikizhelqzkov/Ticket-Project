@@ -1,0 +1,9 @@
+<map id="Client::Client" name="Client::Client">
+<area shape="rect" id="node1" title="Construct a new Client:: Client object." alt="" coords="5,132,101,159"/>
+<area shape="rect" id="node2" href="$class_date.html#a4dedf1cbd19ff221fc1f70895ba560e7" title="Мутатор извеждащ стойността на член&#45;данната day." alt="" coords="155,5,254,32"/>
+<area shape="rect" id="node3" href="$class_date.html#ab337ee138bda0f304b6646bd15fba90a" title="Мутатор извеждащ стойността на член&#45;данната month." alt="" coords="149,56,260,83"/>
+<area shape="rect" id="node4" href="$class_date.html#aa1e4066bffc24af79f604dabce27e3cc" title="Мутатор извеждащ стойността на член&#45;данната year." alt="" coords="153,107,256,133"/>
+<area shape="rect" id="node5" href="$class_date.html#a71f43054b98e129c87bbee30abd2f50c" title="Мутатор с аргумент, който се вкарва в член&#45;данната day." alt="" coords="155,157,254,184"/>
+<area shape="rect" id="node6" href="$class_date.html#af0d2cb0ea106bb304ea11399639f0914" title="Мутатор с аргумент, който се вкарва в член&#45;данната month." alt="" coords="149,208,260,235"/>
+<area shape="rect" id="node7" href="$class_date.html#aacb153d6cd93238085d82d3a94cc4a51" title="Мутатор с аргумент, който се вкарва в член&#45;данната year." alt="" coords="153,259,256,285"/>
+</map>

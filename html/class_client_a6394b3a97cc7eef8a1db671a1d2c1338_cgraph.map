@@ -1,0 +1,4 @@
+<map id="Client::print" name="Client::print">
+<area shape="rect" id="node1" title="Изпраща стойностите на член&#45;данните от класа към файл чрез ostream поток" alt="" coords="5,5,93,32"/>
+<area shape="rect" id="node2" href="$class_date.html#aa3b521a999bdfafb51a934f01f8f6c9c" title="Принтиране на член&#45;данните за дата в стандартен тип" alt="" coords="141,5,224,32"/>
+</map>
