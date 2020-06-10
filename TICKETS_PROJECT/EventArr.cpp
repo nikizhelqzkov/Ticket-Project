@@ -309,7 +309,6 @@ EventArr &EventArr::unbook(std::string name, Date date, int row, int col)
     bool flag = false;
     for (size_t i = 0; i < this->data.size(); i++)
     {
-        std::cout << "here 1\n";
         if (this->data[i].getName() == name && this->data[i].getDate() == date)
         {
             flag = true;
