@@ -32,7 +32,7 @@ Open {style="display:block; text-align:center;padding:10px; font-weight:bold;"}
 
 * * * * *
 
-Help {style="display:block; text-align:center;padding:10px; font-weight:bold;"}
+# Help 
 ----
 
 В секцията help потребителя може да разбере с какви функции може да
@@ -41,7 +41,7 @@ Help {style="display:block; text-align:center;padding:10px; font-weight:bold;"}
 
 * * * * *
 
-Save {style="display:block; text-align:center;padding:10px; font-weight:bold;"}
+# Save 
 ----
 
 В секцията save потребителя просто записва данните в директорията на
@@ -49,7 +49,7 @@ Save {style="display:block; text-align:center;padding:10px; font-weight:bold;"}
 
 * * * * *
 
-Save as {style="display:block; text-align:center;padding:10px; font-weight:bold;"}
+# Save as 
 -------
 
 В секцията save as потребителя просто записва данните в нова директория
@@ -57,7 +57,7 @@ Save as {style="display:block; text-align:center;padding:10px; font-weight:bold;
 
 * * * * *
 
-Close {style="display:block; text-align:center;padding:10px; font-weight:bold;"}
+# Close 
 -----
 
 В секцията close потребителя затваря отворения файл без да го запазва и
@@ -65,14 +65,14 @@ Close {style="display:block; text-align:center;padding:10px; font-weight:bold;"}
 
 * * * * *
 
-Exit {style="display:block; text-align:center;padding:10px; font-weight:bold;"}
+# Exit 
 ----
 
 В секцията Exit потребителя спира приложението.
 
 * * * * *
 
-За в бъдеще {style="display:block; text-align:center;padding:10px; font-weight:bold;"}
+## За в бъдеще 
 -----------
 
 Проекта е още ранна версия. В бъдеще ще може да се пишат имена на
